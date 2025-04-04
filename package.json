@@ -1,0 +1,17 @@
+{
+  "name": "transpiler",
+  "version": "1.0.0",
+  "description": "Uma linguagem custom que transpila para JavaScript",
+  "main": "dist/transpiler.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "npm run build && node dist/transpiler.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "typescript": "^5.4.0"
+  }
+}
